@@ -3,6 +3,32 @@ img{
   align-self: center;
 }
 
+.display{
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    justify-content: center;
+  }
+
+  .contact {
+    justify-content: center;
+  }
+  .image-cont {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .image-cont img{
+    width: 70%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
 .card{
   border: rgb(103, 102, 105) 3px solid;
   display: flex;  
