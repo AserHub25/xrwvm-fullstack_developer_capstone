@@ -5,22 +5,42 @@ img{
 
 .display{
     max-width: 1100px;
-    margin: 40px auto;
-    padding: 40px;
+    margin: 20px auto;
+    padding: 20px;
     background-color: #ffffff;
     border-radius: 30px;
     box-shadow: 0 8px 25px rgba(0,0,0,0.15);
     justify-content: center;
+    height: 550px;
   }
 
   .contact {
     justify-content: center;
+    flex: 1;
+    
   }
+
+  .separator{
+    width: 3px;
+    height: 240px;
+    background-color: #999;
+    margin: 0 40px;
+  }
+
+  .right {
+    
+    color: #5a7ffb;
+    font-size: 16px;
+    line-height: 1.1;
+  }
+
   .image-cont {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
   }
+
+
 
   .image-cont img{
     width: 70%;
